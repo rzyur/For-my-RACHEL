@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09060b">
+  <meta name="description" content="A little love letter made just for you.">
+  <title>A Little Something for You 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="hearts" class="hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <!-- FIRST SCREEN: LOVE LETTER -->
+    <section id="letterCard" class="card">
+      <div class="top-heart" aria-hidden="true">💌</div>
+      <p class="eyebrow">A LITTLE SOMETHING FOR RACHEL</p>
+      <h1>Hey, Baby <span>♡</span></h1>
+
+      <div class="letter">
+        <p>
+          I made this little something while you were away resting.
+          I didn't want to bother you because I knew you weren't
+          feeling well.
+        </p>
+        <p>
+          But honestly, I can't stop thinking about you. I know this is super
+          cringe, HAHAHA, but it's true. I miss you so much.
+        </p>
+        <p>
+          It sucks having you so far away, and I wish I could spend
+          more time with you :(. For now, I just hope you're resting
+          well and taking good care of yourself.
+        </p>
+        <p class="signature">
+          Always cheering for you,<br>
+          <span>From yuwiii who misses you lots 💗</span>
+        </p>
+      </div>
+
+      <button id="continueBtn" class="btn btn-primary">
+        One more thing... 💕
+      </button>
+      <p class="tiny-note">Made with a little love and a lot of courage.</p>
+    </section>
+
+    <!-- SECOND SCREEN: THE QUESTION -->
+    <section id="questionCard" class="card" hidden>
+      <div class="top-heart" aria-hidden="true">💗</div>
+      <p class="eyebrow">OKAY, IMPORTANT QUESTION</p>
+      <h1>Do you love me? <span>🥺</span></h1>
+      <p class="subtitle">Choose carefully... hehe.</p>
+
+      <div id="buttonArea" class="button-area">
+        <button id="yesBtn" class="btn btn-primary">YES!! 💖</button>
+        <button id="noBtn" class="btn btn-secondary">No 🙄</button>
+      </div>
+
+      <p id="hint" class="tiny-note" aria-live="polite">
+        Psst... there's definitely a right answer. 👀
+      </p>
+    </section>
+
+    <!-- THIRD SCREEN: CELEBRATION -->
+    <section id="successScreen" class="success-screen" hidden>
+      <div class="celebration-flash" aria-hidden="true"></div>
+      <div id="confettiContainer" class="confetti-container"
+           aria-hidden="true"></div>
+
+      <div class="success-card">
+        <div class="success-heart" aria-hidden="true">💖</div>
+        <p class="eyebrow">BREAKING NEWS!!!</p>
+        <h1>SHE SAID YES!!!</h1>
+        <p class="success-text">
+          AAAAAAA, I KNEW IT!! 😭💕
+        </p>
+        <p>
+          You just made me the happiest person ever!
+          I wish I could see your face right now.
+        </p>
+        <p class="big-love">I LOVE YOUUUU!! 💋💗</p>
+        <button id="againBtn" class="btn btn-light">
+          Read my letter again 💌
+        </button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
